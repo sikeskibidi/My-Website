@@ -1,0 +1,54 @@
+.menu {
+    position: fixed;
+    background-color: rgba(137, 227, 160, 0.67);
+    width:100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+    
+    }
+.links {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-family: monospace;
+    font-size:16px;
+}
+.link:hover{
+    font-size: 20px;
+    text-decoration:underline; 
+}
+
+
+a{text-decoration: none;}
+
+.profile{
+    border-radius:50%; border-style:solid; border-color:#6dbed4;
+    width: 200px;
+    height: 200px;
+}
+
+.parallax-inner {
+    display:table-cell;
+    vertical-align: middle;
+}
+#welcome{
+    background: linear-gradient(rgb(59, 255, 85), rgb(255, 255, 255));
+    display: table;
+    width:100%;
+    text-align: center
+}
+
+
+h1{
+    font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 600;
+  font-style: normal;
+} 
+
+h2 {
+    font-size:20px;
+    font-weight: 1000;
+    font-style: normal;
+}
